@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin:0;
+    background-color: rgb(109, 124, 126);
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .controls {
+    flex: 1;
+    padding: 10px;
+    background-color: darkgrey;
+  }
+  .results {
+    flex: 1;
+    padding: 10px;
+    background-color: darkgrey;
+  }
+  form{
+      background-color: #ddd;
+      margin:50px 0px 0px 0px;
+      padding:5px;
+  }
+  
+  form p:nth-of-type(1) {
+    margin-top: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Glegoo', serif;
+    background-color: lightgrey;
+    margin: 0px 0px 5px 0px;
+    padding: 30px 0px 25px 0px;
+  }
+  label{
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  a {
+      color:teal;
+      text-decoration-line: none;
+  }
+  a:hover{
+      text-decoration-line: underline;
+  }
+  
+  article p {
+    font-size: 14px;
+    line-height: 1.5;
+    
+  }
+  
+  article p:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  nav {
+    margin-bottom: 50px;
+  }
+  
+  .prev {
+    float: left;
+  }
+  
+  .next {
+    float: right;
+  }
+  
+  article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+  
+  img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  span {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+  }
